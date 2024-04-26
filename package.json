@@ -1,7 +1,8 @@
 {
-  "name": "yuvraj-s-snippets",
-  "displayName": "Yuvraj's Snippets",
+  "name": "react-snippets-pack",
+  "displayName": "React Snippets Suite",
   "description": "snippets",
+  "publisher": "YuvrajSinghLodhi",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.88.0"
