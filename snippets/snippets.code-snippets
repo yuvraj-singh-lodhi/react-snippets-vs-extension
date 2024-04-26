@@ -1,0 +1,93 @@
+{
+    "React Class Component with Lifecycle Methods": {
+        "prefix": "rcl",
+        "body": [
+            "import React, { Component } from 'react';",
+            "",
+            "class $1 extends Component {",
+            "    constructor(props) {",
+            "        super(props);",
+            "        // Initialize state or bind methods here",
+            "    }",
+            "",
+            "    componentDidMount() {",
+            "        // Code to run after component mounts",
+            "    }",
+            "",
+            "    componentDidUpdate(prevProps, prevState) {",
+            "        // Code to run after component updates",
+            "    }",
+            "",
+            "    componentWillUnmount() {",
+            "        // Code to run before component unmounts",
+            "    }",
+            "",
+            "    render() {",
+            "        return (",
+            "            <div>",
+            "                {/* Component content */}",
+            "            </div>",
+            "        );",
+            "    }",
+            "}",
+            "",
+            "export default $1;"
+        ],
+        "description": "React Class Component with Lifecycle Methods"
+    },
+    "React Functional Component with ES6 arrow function": {
+        "prefix": "rfe",
+        "body": [
+            "const $1 = () => (",
+            "\t<div>",
+            "\t\t$2",
+            "\t</div>",
+            ");",
+            "",
+            "export default $1;"
+        ],
+        "description": "React Functional Component with ES6 arrow function"
+    },
+    "React Router Route": {
+        "prefix": "rr",
+        "body": [
+            "<Route path=\"$1\" component={$2} />"
+        ],
+        "description": "React Router Route"
+    },
+    "React PureComponent": {
+        "prefix": "rcp",
+        "body": [
+            "class $1 extends React.PureComponent {",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t<div>",
+            "\t\t\t\t$2",
+            "\t\t\t</div>",
+            "\t\t);",
+            "\t}",
+            "}",
+            "",
+            "export default $1;"
+        ],
+        "description": "React PureComponent"
+    },
+    "React PropTypes Check": {
+        "prefix": "rpc",
+        "body": [
+            "ComponentName.propTypes = {",
+            "\t$1: PropTypes.$2.isRequired,",
+            "};"
+        ],
+        "description": "React PropTypes Check"
+    },
+    "React useState Hook": {
+        "prefix": "rs",
+        "body": [
+            "const [$1, set$2] = useState($3);"
+        ],
+        "description": "React useState Hook"
+    }
+    
+    
+}
